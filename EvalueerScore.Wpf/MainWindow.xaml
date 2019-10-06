@@ -1,0 +1,16 @@
+﻿<Window x:Class="EvalueerScore.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EvalueerScore.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="lstScores" HorizontalAlignment="Left" Height="154" Margin="32,71,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="35,34,0,0" VerticalAlignment="Top" Width="97"/>
+        <ComboBox x:Name="cmbScore" HorizontalAlignment="Left" Margin="35,240,0,0" VerticalAlignment="Top" Width="97"/>
+        <TextBlock x:Name="tbkFeedBack" HorizontalAlignment="Left" Margin="170,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="229" Padding="10" Background="#FFF0D2DE"/>
+
+    </Grid>
+</Window>
