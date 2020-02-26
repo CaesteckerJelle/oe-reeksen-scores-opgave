@@ -4,7 +4,7 @@ Op basis van een enum met scoreomschrijvingen feedback geven over de gekozen sco
 # Scores beheren met enums
 ## Declaratie van een enum Scores
 Declareer een enum met de volgende elementen: 
-Ondermaat, Zwak, Goed, Sterk, Uitstekend.
+Ondermaats, Zwak, Goed, Sterk, Uitstekend.
 
 **'Ondermaats'** komt overeen met een score van 1. Deze klimt op naar 5 voor **'Uitstekend'**
 ## Opstarten
